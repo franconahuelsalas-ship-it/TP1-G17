@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorador de Proyectos</h1>
+        <nav class="menu">
+            <a href="index.html" class="btn">Inicio</a>
+            <a href="perfil.html" class="btn">Perfil</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="filtros">
+            <h2>Filtros</h2>
+            <div class="filtros-grid">
+                <div class="filtro-item">
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="">Todas</option>
+                        <option>Programación</option>
+                        <option>Matemática</option>
+                        <option>Diseño</option>
+                    </select>
+                </div>
+                <div class="filtro-item">
+                    <label for="año">Año:</label>
+                    <select id="año" name="año">
+                        <option value="">Todos</option>
+                        <option>2026</option>
+                        <option>2025</option>
+                    </select>
+                </div>
+                <div class="filtro-item">
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estado">
+                        <option value="">Todos</option>
+                        <option>En curso</option>
+                        <option>Finalizado</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="lista-proyectos">
+            <h2 class="titulo-seccion">Lista de Proyectos</h2>
+
+            <article class="proyecto-card">
+                <h3>Proyecto 1 - Plataforma Web</h3>
+                <img src="../img/proyecto1.jpg" alt="Proyecto 1" class="proyecto-img">
+                <p>Proyecto para crear una plataforma educativa.</p>
+                <p class="categoria"><strong>Categoría:</strong> Programación</p>
+                <a href="detalle.html" class="btn">Ver detalle</a>
+            </article>
+
+            <article class="proyecto-card">
+                <h3>Proyecto 2 - Sistema Escolar</h3>
+                <img src="../img/proyecto2.jpg" alt="Proyecto 2" class="proyecto-img">
+                <p>Sistema para gestionar alumnos y docentes.</p>
+                <p class="categoria"><strong>Categoría:</strong> Programación</p>
+                <a href="detalle.html" class="btn">Ver detalle</a>
+            </article>
+
+            <article class="proyecto-card">
+                <h3>Proyecto 3 - Datos Matemáticos</h3>
+                <img src="../img/proyecto3.jpg" alt="Proyecto 3" class="proyecto-img">
+                <p>Análisis de datos educativos.</p>
+                <p class="categoria"><strong>Categoría:</strong> Matemática</p>
+                <a href="detalle.html" class="btn">Ver detalle</a>
+            </article>
+
+            <article class="proyecto-card">
+                <h3>Proyecto 4 - Aula Virtual</h3>
+                <img src="../img/proyecto4.jpg" alt="Proyecto 4" class="proyecto-img">
+                <p>Diseño de plataforma online.</p>
+                <p class="categoria"><strong>Categoría:</strong> Diseño</p>
+                <a href="detalle.html" class="btn">Ver detalle</a>
+            </article>
+
+            <article class="proyecto-card">
+                <h3>Proyecto 5 - App de Tareas</h3>
+                <img src="../img/proyecto5.jpg" alt="Proyecto 5" class="proyecto-img">
+                <p>Aplicación para organizar tareas.</p>
+                <p class="categoria"><strong>Categoría:</strong> Programación</p>
+                <a href="detalle.html" class="btn">Ver detalle</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TP1-G17</p>
+    </footer>
+</body>
+</html>
